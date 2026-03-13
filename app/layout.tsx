@@ -18,7 +18,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
     title: "Enzo Vandepoele - Portfolio",
-    description: "Enzo Vandepoele's Portfolio"
+    description: "Enzo Vandepoele's Portfolio",
+    icons: {
+        icon: [
+            { url: "/favicon.ico" },
+            { url: "https://avatars.githubusercontent.com/u/110382392?v=4", type: "image/png" },
+        ],
+    },
 };
 
 export default function RootLayout({
@@ -30,7 +36,6 @@ export default function RootLayout({
         <>
             <html lang="en" suppressHydrationWarning>
                 <head />
-                <link rel="icon" href="https://avatars.githubusercontent.com/u/110382392?v=4" sizes="any" />
                 <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 
                     {/* ===== FOND ===== */}

@@ -15,6 +15,17 @@ import ParcoursClient from "@/components/parcours-client";
 import TerminalInterests from "@/components/terminal-interests";
 import Competences from "@/components/competences";
 import Projects from "@/components/projects";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Accueil | Enzo Vandepoele",
+    icons: {
+        icon: [
+            { url: "/favicon.ico" },
+            { url: "https://avatars.githubusercontent.com/u/110382392?v=4", type: "image/png" },
+        ],
+    },
+};
 
 export default async function HomePage() {
     const github = await getGithubUser("Unicron03");
