@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react"
 
-const interests = ["Musique 🎵", "Jeux Vidéos 🎮", "Sports ⚽"]
+const interests = ["Musique 🎵", "Jeux Vidéos 🎮", "Sports ⚽", "Développement 🖥️"]
 
 const TYPING_SPEED = 80
 const DELETING_SPEED = 50

@@ -1,0 +1,59 @@
+{
+  "legal": {
+    "pages": [
+      {
+        "id": "legal-notice",
+        "name": "Mentions légales",
+        "href": "/pages/legal-notice",
+        "description": "Informations légales sur le site et éditeur",
+        "icon": "Shield"
+      },
+      {
+        "id": "privacy-policy",
+        "name": "Politique de confidentialité",
+        "href": "/pages/privacy-policy",
+        "description": "Politique de protection des données personnelles (RGPD)",
+        "icon": "Lock"
+      },
+      {
+        "id": "terms-of-service",
+        "name": "Conditions d'utilisation",
+        "href": "/pages/terms-of-service",
+        "description": "Términos de utilización del sitio web",
+        "icon": "FileText"
+      }
+    ],
+    "contact": {
+      "email": "enzo.vandepoele3@gmail.com",
+      "name": "Enzo Vandepoele",
+      "location": "France"
+    },
+    "hosting": {
+      "provider": "Vercel",
+      "url": "https://vercel.com",
+      "address": "340 S Lemon Ave, Walnut, CA 91789, USA"
+    },
+    "thirdPartyServices": [
+      {
+        "name": "Google Analytics",
+        "purpose": "Analyse du trafic",
+        "privacyUrl": "https://policies.google.com/privacy"
+      },
+      {
+        "name": "Vercel",
+        "purpose": "Hébergement du site",
+        "privacyUrl": "https://vercel.com/legal/privacy-policy"
+      },
+      {
+        "name": "GitHub",
+        "purpose": "Affichage des projets",
+        "privacyUrl": "https://docs.github.com/en/github/site-policy/github-privacy-statement"
+      },
+      {
+        "name": "Resend",
+        "purpose": "Envoi d'e-mails (formulaire contact)",
+        "privacyUrl": "https://resend.com/legal/privacy"
+      }
+    ]
+  }
+}
