@@ -40,3 +40,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # Service de mail
 
 [resend.com](resend.com)
+
+# Contenu dynamique
+
+Ce site contient des éléments dynamiques pouvant être modifiés à la volée avec Notion :
+- Les compétences
+- Les expériences
+- Les projets
+
+Lien vers le Notion : https://www.notion.so/Portfolio-infos-32061eadb6168069bc02f8b7fbda6d33
